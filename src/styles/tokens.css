@@ -1,0 +1,34 @@
+:root {
+  /* Palette */
+  --ink: #04050c;
+  --navy: #0a1030;
+  --navy-2: #0e1a45;
+  --text: #e9edff;
+  --muted: #a3acd0;
+  --faint: #7681ab;
+  --blue: #3b82f6;
+  --violet: #8b5cf6;
+  --cyan: #22d3ee;
+  --rose: #fda4af;
+  --mint: #6ee7b7;
+
+  /* Surfaces */
+  --glass: rgba(14, 22, 54, 0.55);
+  --glass-hover: rgba(18, 28, 68, 0.7);
+  --field: rgba(4, 5, 12, 0.55);
+  --stroke: rgba(148, 163, 255, 0.16);
+  --stroke-strong: rgba(34, 211, 238, 0.5);
+  --grad: linear-gradient(120deg, var(--cyan), var(--blue) 48%, var(--violet));
+
+  /* Type */
+  --font-display: 'Sora', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-body: 'Manrope', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  /* Shape and space */
+  --radius-lg: 22px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+  --nav-h: 72px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
